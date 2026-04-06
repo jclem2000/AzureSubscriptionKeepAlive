@@ -115,7 +115,7 @@ script logs warnings and returns a non-zero exit code.
 
 ## Why is this Necessary?
 
-MCAPS Enforcement policy: Azure Managed Tenant Cost Optimization Control
+MCAPS Enforcement policy: Azure Managed Tenant Cost Optimization Control, Rule: Cancel inactive subscriptions
 
 >Subscriptions which are inactive for 90 days will be cancelled.  Subscription activity is determined by management operations on Azure resources (i.e. activity log entries) performed by a user account.  Actions performed by service accounts are not evaluated.  Subscription owners will receive an email notification at time of cancellation.  If the subscription is still needed, the user can reactivate it using the Azure portal.  Subscriptions not reactivated will be deleted 90 days after cancellation.
 
