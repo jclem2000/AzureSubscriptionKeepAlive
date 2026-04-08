@@ -1,5 +1,9 @@
 # Azure Subscription KeepAlive Tagger
 
+![PowerShell](https://img.shields.io/badge/PowerShell-7.0-blue)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 This repository contains a PowerShell script that applies a
 subscription-level tag named `keepalive` to all enabled subscriptions in a
 tenant.
@@ -175,3 +179,11 @@ You can schedule this script with:
 
 When scheduled, monitor exit code and logs to detect failed subscription
 updates.
+
+## Disclosure & Disclaimer
+
+The author is a Microsoft employee; however, this is a **personal open-source project**. It is **not** an official Microsoft product, nor is it endorsed, sponsored, or supported by Microsoft.
+
+- **No warranty**: Provided "as-is" under the [MIT License](LICENSE).
+- **No official support**: For Azure platform issues, use [Azure Support](https://azure.microsoft.com/support/).
+- **Trademarks**: "Microsoft" and "Azure" are trademarks of Microsoft Corporation. Their use here is for identification only and does not imply endorsement.
